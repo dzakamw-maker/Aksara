@@ -53,7 +53,7 @@ export default function Hero() {
 
       <ScrollReveal
         delay="0.2s"
-        className="relative max-md:hidden"
+        className="relative"
       >
         <div className="w-full aspect-[4/5] relative max-md:aspect-video">
           <img
@@ -69,25 +69,25 @@ export default function Hero() {
             Brand Identity
           </div>
           <div
-            className="absolute font-mono text-[0.7rem] font-bold bg-sky text-ink px-3 py-1.5 rounded-sm uppercase tracking-wide animate-[float_4s_ease-in-out_infinite]"
+            className="absolute font-mono text-[0.7rem] font-bold bg-sky text-ink px-3 py-1.5 rounded-sm uppercase tracking-wide animate-[float_4s_ease-in-out_infinite] max-md:hidden"
             style={{ top: "3.5rem", right: "0.75rem", animationDelay: "2.5s", zIndex: 2 }}
           >
             App Design
           </div>
           <div
-            className="absolute font-mono text-[0.7rem] font-bold bg-gold text-ink px-3 py-1.5 rounded-sm uppercase tracking-wide animate-[float_4s_ease-in-out_infinite]"
+            className="absolute font-mono text-[0.7rem] font-bold bg-gold text-ink px-3 py-1.5 rounded-sm uppercase tracking-wide animate-[float_4s_ease-in-out_infinite] max-md:hidden"
             style={{ bottom: "8rem", left: "0.75rem", animationDelay: "0.5s", zIndex: 2 }}
           >
             Web UI
           </div>
 
-          <div className="w-[200px] h-[200px] bg-coral/20 rounded-full blur-[60px] animate-[float_6s_ease-in-out_infinite]"
+          <div className="w-[200px] h-[200px] bg-coral/20 rounded-full blur-[60px] animate-[float_6s_ease-in-out_infinite] max-md:hidden"
             style={{ position: "absolute", top: "10%", right: "15%" }}
           />
-          <div className="w-[150px] h-[150px] bg-lime/25 rounded-full blur-[50px] animate-[float_6s_ease-in-out_infinite]"
+          <div className="w-[150px] h-[150px] bg-lime/25 rounded-full blur-[50px] animate-[float_6s_ease-in-out_infinite] max-md:hidden"
             style={{ position: "absolute", bottom: "30%", left: "10%", animationDelay: "2s" }}
           />
-          <div className="w-[180px] h-[180px] bg-violet/20 rounded-full blur-[60px] animate-[float_6s_ease-in-out_infinite]"
+          <div className="w-[180px] h-[180px] bg-violet/20 rounded-full blur-[60px] animate-[float_6s_ease-in-out_infinite] max-md:hidden"
             style={{ position: "absolute", bottom: "10%", right: "25%", animationDelay: "4s" }}
           />
 

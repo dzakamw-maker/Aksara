@@ -124,8 +124,7 @@ export default function OrderForm() {
                   required
                   placeholder="nama kamu"
                   id="f-name"
-                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal"
-                  style={{ width: "150px" }}
+                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal w-[150px] max-md:w-full"
                 />
                 <label className="text-muted">dan saya butuh</label>
                 <select
@@ -153,8 +152,7 @@ export default function OrderForm() {
                   type="text"
                   placeholder="jenis bisnis / produk"
                   id="f-biz"
-                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal"
-                  style={{ width: "200px" }}
+                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal w-[200px] max-md:w-full"
                 />
               </div>
 
@@ -194,8 +192,7 @@ export default function OrderForm() {
                   required
                   placeholder="email@kamu.com"
                   id="f-email"
-                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal"
-                  style={{ width: "220px" }}
+                  className="bg-transparent border-none border-b-2 border-ink px-2 py-0.5 font-head text-base font-bold text-ink outline-none focus:border-coral min-w-[120px] placeholder:text-ink/25 placeholder:font-normal w-[220px] max-md:w-full"
                 />
               </div>
 

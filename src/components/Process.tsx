@@ -44,7 +44,7 @@ export default function Process() {
       </ScrollReveal>
 
       <ScrollReveal>
-        <div className="grid grid-cols-4 border-[1.5px] border-ink rounded-md overflow-hidden max-md:grid-cols-2">
+        <div className="grid grid-cols-4 border-[1.5px] border-ink rounded-md overflow-hidden max-md:grid-cols-2 max-sm:grid-cols-1">
           {steps.map((s) => (
             <div
               key={s.num}
